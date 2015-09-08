@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .header,
+    .pagefooter {
+        height: 100px;
+        background-color: red;
+    }
+    .wrap{
+        margin: 0 auto; 
+        width: 85%; 
+        min-width: 960px;
+    }
+    .content,
+    .right,
+    .left{
+        height: 300px;
+    }
+    .content {
+        background-color: yellow;
+    }
+    .right {
+        background-color: blue;
+    }
+    .left {
+        background-color: blue;
+    }
+    .pagefooter {
+        background-color: green;
+    }
+    /* ******************************** */
+    
+    .content {
+        float: left;
+        width: 100%;
+    }
+    .left {
+        float: left;
+        width: 300px;
+        margin-left: -100%;
+        position: relative;
+        left: -300px; 
+    }
+    .right {
+        float: left;
+        width: 200px;
+        margin-left: -200px;
+        position: relative;
+        right: -200px;
+    }
+    .container{
+       padding: 0 200px 0 300px; 
+    }
+    .pagefooter {
+        clear: both;
+    }
+    </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="header">
+
+    </div>
+    <div class="container">
+        <div class="content">
+asdsadsa
+        </div>
+        <div class="left">
+
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+    <div class="pagefooter">
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "css-layout",
+  "description": "project css-layout",
+  "version": "0.0.1",
+  "homepage": "https://flyknows.info",
+  "author": {
+    "name": "luoxiao"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/luckyrobin/nuoya.git"
+  },
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-less": "*",
+    "grunt-csscomb": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*"
+  }
+}
