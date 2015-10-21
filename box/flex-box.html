@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex-box</title>
+	<style type="text/css">
+		.content{
+			height: 200px;
+			display: box;
+			display: -webkit-box;
+			border: 1px solid #ccc;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-box-align: center;   /*等同于vertical-align*/
+
+		}
+		.item1,.item2,.item3{
+			height: 150px;
+			margin: 0 10px;
+		}
+		.item1{
+			-webkit-box-flex: 1;
+			background-color: red;
+			display: -webkit-box;
+			-webkit-box-align: center;
+			-webkit-box-pack: center;
+		}
+		.item2{
+			-webkit-box-flex: 2;
+			background-color: green;
+		}
+		.item3{
+			width: 100px;
+			background-color: blue;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="item1">
+			123
+		</div>
+		<div class="item2">
+			456
+		</div>
+		<div class="item3">
+			78
+		</div>
+	</div>
+</body>
+</html>
